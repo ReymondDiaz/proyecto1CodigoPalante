@@ -66,11 +66,10 @@ section{
   
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding: 16px;
     min-height: 100vh;
-    padding-top: 120px;
+    padding-top: 100px;
 }
 section.inicio{
     justify-content: space-around;
@@ -82,7 +81,7 @@ figure.presentacion-img{
 }
 figure.presentacion-img img{
     border-radius: 50%;
-    width: 400px;
+    width: 300px;
 
 }
 article.presentacion{
@@ -118,7 +117,7 @@ a.btn{
 }
 .contacto-parrafo h2{
     font-size: 28px;
-    padding: 18px;
+    padding-top:  16px;
 }
 .redes{
     width: 100%;
