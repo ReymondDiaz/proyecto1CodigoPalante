@@ -5,40 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reymond Diaz</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header>
-        <img src="" alt="">
+        <img src="./img/logo.png" alt="logo">
         <nav >
            <ul class="menu">
-            <li class="menu-item"><a href="">inicio</a> </li>
-            <li class="menu-item"><a href="">contacto</a> </li>
+            <li class="menu-item"><a href="#inicio">inicio</a> </li>
+            <li class="menu-item"><a href="#contacto">contacto</a> </li>
            </ul>
         </nav>
     </header>
     <main>
-        <section class="inicio">
+        <section class="inicio" id="inicio">
            <figure class="presentacion-img">
-                <img src="" alt="">
+                <img src="./img/reymond.png"alt="persona">
             </figure>
             <article class="presentacion">
-                 <h1>Hola, soy reymond</h1> 
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sit ratione repellendus obcaecati aliquam ipsa modi nulla iste, tenetur et?</p>
-                 <a href="" class="btn">Descargar mi cv</a>
+                 <h1>Hola, soy Reymond</h1> 
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora facere, ex molestias corporis repudiandae, libero itaque aut voluptatum earum quaerat nisi fugit quod rem magnam deserunt repellendus quam molestiae provident! </p>
+                 <a href="./archivos/reymond curriculum333.pdf" class="btn" download="cv" title="Descargar cv">Descargar mi cv</a>
             </article>
-            
-           
-
         </section>
-        <section class="contacto">
-            <article>
+        <section class="contacto" id="contacto">
+            <article class="contacto-parrafo" >
                 <h2>Hablemos!</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eligendi tempore quibusdam aspernatur quisquam unde sed doloremque iusto molestiae. Fuga?
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eligendi tempore quibusdam aspernatur quisquam unde sed doloremque iusto molestiae. Fuga? Lorem ipsum dolor sit.
                 </p>
             </article>
+            <article class="redes">
+                <ul class="lista-redes">
+                    <li class="icon"><a href="mailto:reymonddiaz959@gmail.com" target="_blank"> <img src="./img/mail.png" alt="Correo"></a></li>
+                    <li class="icon"><a href="https://github.com/ReymondDiaz" target="_blank"><img src="./img/github.png" alt="github"></a></li>
+                    <li class="icon"><a href="https://www.linkedin.com/in/reymond-enrique-diaz-hernandez-523a26258/" target="_blank"><img src="./img/linkedin.png" alt="linkedin"></a></li>
+                </ul>
+            </article>
         </section>
-
     </main>
+    <footer class="footer">
+        <p>Codigo Latam</p>
+    </footer>
 </body>
 </html>
